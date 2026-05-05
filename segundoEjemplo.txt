@@ -1,0 +1,14 @@
+// Segundo ejemplo de nuestro programa
+contador = 0;
+limite = 50;
+
+if (contador < limite) {
+    factor = 2;
+}
+
+while (contador < limite) {
+    total = contador * factor + 5;
+    contador = contador + 1;
+}
+
+finalizado = 1;

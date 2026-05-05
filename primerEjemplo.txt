@@ -1,0 +1,4 @@
+//Primer ejmplo de nuestro programa
+x = a + b * c / d - 5;
+y = (x + 10) * 2;
+resultado = x * y + a / b;

@@ -1,0 +1,33 @@
+// Grafo DAG
+digraph {
+	rankdir=TB
+	node [fontname=Arial fontsize=12]
+	t0 [label="t0
+(+)" fillcolor="#3498db" fontcolor=white shape=circle style=filled]
+	5 [label=5 fillcolor="#ecf0f1" shape=square style=filled]
+	2 [label=2 fillcolor="#ecf0f1" shape=square style=filled]
+	t0 -> 5
+	t0 -> 2
+	t1 [label="t1
+(*)" fillcolor="#3498db" fontcolor=white shape=circle style=filled]
+	3 [label=3 fillcolor="#ecf0f1" shape=square style=filled]
+	t1 -> 3
+	t1 -> 5
+	t2 [label="t2
+(-)" fillcolor="#3498db" fontcolor=white shape=circle style=filled]
+	t2 -> t0
+	t2 -> t1
+	t3 [label="t3
+(+)" fillcolor="#3498db" fontcolor=white shape=circle style=filled]
+	t3 -> t2
+	t3 -> 3
+	t4 [label="t4
+(-)" fillcolor="#3498db" fontcolor=white shape=circle style=filled]
+	t4 -> t3
+	t4 -> 2
+	t5 [label="t5
+(+)" fillcolor="#3498db" fontcolor=white shape=circle style=filled]
+	1 [label=1 fillcolor="#ecf0f1" shape=square style=filled]
+	t5 -> t4
+	t5 -> 1
+}

@@ -1,0 +1,2 @@
+// Operación generada desde la interfaz
+resultado = [4 -(5 * 9 + ( 2 + (15 / 3)) - 9) ];

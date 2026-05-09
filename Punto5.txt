@@ -1,0 +1,2 @@
+// Operación generada desde la interfaz
+resultado = 2 +  [8 / 2 + (3 + 4)];
